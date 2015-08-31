@@ -1,4 +1,4 @@
-application: pup-dbms-m4-15
+application: pup-dbms-m5-15
 version: 1
 runtime: python27
 api_version: 1
@@ -9,7 +9,7 @@ handlers:
   static_dir: static
 
 - url: /.*
-  script: pup-dbms-m4-15.app
+  script: pup-dbms-m5-15.app
 
 libraries:
 - name: webapp2
