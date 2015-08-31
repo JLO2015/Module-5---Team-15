@@ -1,0 +1,17 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/style.css" />
+</head>
+<body>
+      <li class="logout"><a href="{{logout_url}}"> <h4>LOG OUT</h4> </a></li>
+<div class="form">
+<p>REGISTRATION PAGE FOR NEW USER</p>
+    <form id="create" url="/register">
+            <label>First Name <input type="text" name="first_name" required></label>
+            <label>Last Name <input type="text" name="last_name" required></label>
+            <label>Phone Number <input type="number" name="phone_number" required></label>
+        <input class="btn" type="submit" value="REGISTER">
+    </form>
+</div>
+</body>
+</html>
