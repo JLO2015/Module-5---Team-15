@@ -1,0 +1,42 @@
+body {
+	font-size: 14px;
+    font-family: Calibri;
+}
+
+.main {
+	alignment: center;
+    width: 400px;
+    margin: 5px 0px 20px 5px;
+	margin-bottom: 15px;
+	line-height: 15px;
+	width: 250px;
+	padding-left: 5px;
+	border-bottom: 1px solid #FFC125;
+    border-top: 1px solid #FF7F24;
+    border-left: 1px solid #FF7F24;
+    border-right: 1px solid #FF7F24;
+    font-family: Calibri;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form input[type=text] {
+    width: 25%;
+    margin-top: 5px;
+    line-height: 20px;
+	alignment: center;
+}
+
+form input[type=submit] {
+    margin-top: 5px;
+    position: relative;
+    float: right;
+	alignment: center;
+}
+
+p.button input[type="submit"]:focus{
+	background: rgb(40, 137, 154);
+	position: center;
+	top: 1px;
+	border: 1px solid rgb(12, 76, 87);	
+}
